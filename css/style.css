@@ -1,1 +1,60 @@
-/* Denna fil skall innehålla din CSS kod */
+.Background {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.Gridwrapper {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-areas: 
+    "Sh Se He Pr Ca"
+    ;
+    grid-template-columns: 5,1fr;
+    grid-template-rows: 5,1fr;
+    grid-gap: 1px;
+   
+}
+
+.Header {
+    grid-area: He;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.Shop {
+    grid-area: Sh;
+    font-size: 30px;
+    text-align: center;
+}
+
+.Profile {
+    grid-area: Pr;
+    font-size: 30px;
+    text-align: center;
+}
+
+.Search {
+    grid-area: Se;
+    font-size: 30px;
+    text-align: center;
+}
+
+.Cart {
+    grid-area: Ca;
+    font-size: 30px;
+    text-align: center;
+}
+
+li{
+    list-style: none;
+
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+
+}

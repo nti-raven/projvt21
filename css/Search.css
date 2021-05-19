@@ -1,0 +1,77 @@
+.topnav {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-areas: 
+    "he se sh di pr tp tb tp" 
+    ;
+    grid-template-columns: 1,1fr;
+    grid-template-rows: 8,1fr;
+    grid-gap: 1px;
+    flex-direction: column ;
+    display: flex;
+    text-align: center;
+  }
+
+.Header {
+    grid-area: he;
+    font-size: 100px;
+}
+
+.Search {
+    grid-area: se;
+    height: 50px;
+    font-size: 40px;
+    text-align: center;
+    width: 500px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.Diorshoes {
+    grid-area: sh;
+    max-height: 20%;
+    max-width: 20%;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+.Diorprice {
+    grid-area: di;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.Shoesprice {
+    grid-area: pr;
+    font-size: 17px;
+}
+
+.Triopic {
+    grid-area: tp;
+    max-height: 20%;
+    max-width: 20%;
+    margin-top: 40px;
+}
+
+.Trioblack {
+    grid-area: tb;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.Trioprice {
+    grid-area: tp;
+    font-size: 17px;
+}
+
+li{
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+

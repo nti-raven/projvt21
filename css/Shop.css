@@ -1,0 +1,47 @@
+.Gridwrapper {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-areas: 
+    "he ts ho je" 
+    ;
+    grid-template-columns: 1,1fr;
+    grid-template-rows: 4,1fr;
+    grid-gap: 1px;
+    flex-direction: column ;
+    display: flex;
+    text-align: center;
+  }
+
+.Header {
+    grid-area: he;
+    font-size: 100px;   
+    margin-bottom: 180px;
+}
+
+.Tshirt {
+    grid-area: ts;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.Hoodies {
+    grid-area: ho;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.Jeans {
+    grid-area: je;
+    font-size: 40px;
+}
+
+li{
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+

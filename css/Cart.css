@@ -1,0 +1,72 @@
+
+.Gridwrapper {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-areas: 
+    "he yo ti tb tp eq se pa" 
+    ;
+    grid-template-columns: 1,1fr;
+    grid-template-rows: 8,1fr;
+    grid-gap: 1px;
+    flex-direction: column ;
+    display: flex;
+    text-align: center;
+}
+
+
+.Header {
+    grid-area: he;
+    font-size: 100px;
+}
+
+.Yourcart {
+    grid-area: yo;
+    font-size: 30px;
+    margin-top: 60px;
+}
+
+.Triopic {
+    grid-area: ti;
+    max-height: 40%;
+    max-width: 40%;
+    margin-top: 40px;
+}
+
+.Trioblack {
+    grid-area: tb;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.Trioprice {
+    grid-area: tp;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.Equal {
+    grid-area: eq;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.Seventy {
+    grid-area: se;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.Pay {
+    grid-area: pa;
+    font-size: 25px;
+}
+
+li{
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
